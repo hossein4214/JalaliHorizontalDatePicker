@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/picker_item_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/picker_item_day_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:fontFamily="sans-serif"
+        android:text="JUE"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/secundaryTextColor"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/picker_item_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingLeft="8dp"
+        android:paddingTop="6dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="6dp"
+        android:text="18"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="18sp" />
+</LinearLayout>

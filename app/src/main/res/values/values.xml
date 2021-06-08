@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="colorHover">#30818181</color>
+    <color name="colorPrimary">#37474f</color>
+    <color name="primaryTextColor">#4d4d4d</color>
+    <color name="secundaryTextColor">#757575</color>
+    <color name="today_background">#85f7f7f7</color>
+    <color name="today_border">#e4e4e4</color>
+    <string name="app_name">Jalali Horizontal Date Picker</string>
+    <string name="today">امروز</string>
+    <declare-styleable name="DatePickerTimeLine" ns1:ignore="ResourceName">
+        <attr format="color" name="monthTextColor"/>
+        <attr format="color" name="dateTextColor"/>
+        <attr format="color" name="dayTextColor"/>
+        <attr format="color" name="disabledColor"/>
+        <!--<attr name="selectionBackgroundColor" format="color"/>-->
+        <!--<attr name="monthTextSize" format="dimension"/>-->
+        <!--<attr name="dateTextSize" format="dimension"/>-->
+        <!--<attr name="dayTextSize" format="dimension"/>-->
+    </declare-styleable>
+</resources>
